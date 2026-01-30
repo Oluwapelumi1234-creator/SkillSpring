@@ -1,0 +1,111 @@
+ body {
+            font-family: "Segoe UI", sans-serif;
+            background: #f8fbff;
+            color: #1f2937;
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: #1f2937 !important;
+        }
+
+        .nav-link:hover {
+            color: #2563eb !important;
+        }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh;
+            background:
+                linear-gradient(rgba(30, 64, 175, 0.85), rgba(30, 64, 175, 0.85)),
+                url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .hero h1 span {
+            color: #facc15;
+        }
+
+        .btn-main {
+            background: #facc15;
+            color: #000;
+            font-weight: 600;
+            border-radius: 30px;
+            padding: 12px 30px;
+        }
+
+        /* SECTION TITLE */
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-weight: 700;
+            color: #1e40af;
+        }
+
+        /* SKILL CARDS */
+        .skill-card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .skill-card i {
+            font-size: 40px;
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        /* PATH */
+        .path-step {
+            background: #eef4ff;
+            border-radius: 15px;
+            padding: 25px;
+            height: 100%;
+        }
+
+        /* CTA */
+        .cta {
+            background: #1e40af;
+            color: #fff;
+            border-radius: 20px;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #cbd5f5;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s ease;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
